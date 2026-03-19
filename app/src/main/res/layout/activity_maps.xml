@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/content_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_dark">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:paddingTop="8dp"
+        app:navigationIcon="@drawable/ic_back"
+        android:background="@color/bg_dark"/>
+
+    <!-- Header -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="24dp"
+        android:paddingBottom="16dp">
+
+        <TextView
+            android:id="@+id/section_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_primary"
+            android:textSize="30sp"
+            android:fontFamily="sans-serif-bold"/>
+
+        <TextView
+            android:id="@+id/section_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_secondary"
+            android:textSize="14sp"
+            android:layout_marginTop="4dp"/>
+    </LinearLayout>
+
+    <!-- Map Placeholder -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginHorizontal="16dp"
+        app:cardCornerRadius="20dp"
+        app:cardBackgroundColor="@color/map_bg"
+        app:cardElevation="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!-- Map placeholder content -->
+            <TextView
+                android:text="🗺️"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="80sp"
+                android:layout_centerInParent="true"
+                android:alpha="0.4"/>
+
+            <TextView
+                android:text="Interactive Map"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_secondary"
+                android:textSize="14sp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="80dp"/>
+
+            <!-- Map type buttons -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_alignParentTop="true"
+                android:layout_margin="12dp"
+                android:background="@drawable/rounded_bg_dark"
+                android:padding="4dp">
+
+                <TextView
+                    android:id="@+id/btn_street"
+                    android:layout_width="0dp"
+                    android:layout_height="36dp"
+                    android:layout_weight="1"
+                    android:text="Street"
+                    android:gravity="center"
+                    android:textColor="@color/text_primary"
+                    android:textSize="12sp"
+                    android:background="@drawable/map_btn_selected"
+                    android:fontFamily="sans-serif-medium"/>
+
+                <TextView
+                    android:id="@+id/btn_satellite"
+                    android:layout_width="0dp"
+                    android:layout_height="36dp"
+                    android:layout_weight="1"
+                    android:text="Satellite"
+                    android:gravity="center"
+                    android:textColor="@color/text_secondary"
+                    android:textSize="12sp"/>
+
+                <TextView
+                    android:id="@+id/btn_terrain"
+                    android:layout_width="0dp"
+                    android:layout_height="36dp"
+                    android:layout_weight="1"
+                    android:text="Terrain"
+                    android:gravity="center"
+                    android:textColor="@color/text_secondary"
+                    android:textSize="12sp"/>
+
+                <TextView
+                    android:id="@+id/btn_transit"
+                    android:layout_width="0dp"
+                    android:layout_height="36dp"
+                    android:layout_weight="1"
+                    android:text="Transit"
+                    android:gravity="center"
+                    android:textColor="@color/text_secondary"
+                    android:textSize="12sp"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Nearby chips -->
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="12dp"
+        android:clipToPadding="false">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/chip_hotels"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="🏨 Hotels"
+                android:gravity="center"
+                android:paddingHorizontal="16dp"
+                android:background="@drawable/chip_bg"
+                android:textColor="@color/text_primary"
+                android:textSize="13sp"
+                android:layout_marginEnd="8dp"
+                android:fontFamily="sans-serif-medium"/>
+
+            <TextView
+                android:id="@+id/chip_restaurants"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="🍽️ Restaurants"
+                android:gravity="center"
+                android:paddingHorizontal="16dp"
+                android:background="@drawable/chip_bg"
+                android:textColor="@color/text_primary"
+                android:textSize="13sp"
+                android:layout_marginEnd="8dp"
+                android:fontFamily="sans-serif-medium"/>
+
+            <TextView
+                android:id="@+id/chip_attractions"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="🗺️ Attractions"
+                android:gravity="center"
+                android:paddingHorizontal="16dp"
+                android:background="@drawable/chip_bg"
+                android:textColor="@color/text_primary"
+                android:textSize="13sp"
+                android:layout_marginEnd="8dp"
+                android:fontFamily="sans-serif-medium"/>
+
+            <TextView
+                android:id="@+id/chip_airports"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="✈️ Airports"
+                android:gravity="center"
+                android:paddingHorizontal="16dp"
+                android:background="@drawable/chip_bg"
+                android:textColor="@color/text_primary"
+                android:textSize="13sp"
+                android:fontFamily="sans-serif-medium"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</LinearLayout>

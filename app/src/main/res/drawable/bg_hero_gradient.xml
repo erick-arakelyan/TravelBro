@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Hero header gradient background -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Sky gradient layer -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:type="linear"
+                android:angle="270"
+                android:startColor="#87CEEB"
+                android:centerColor="#3D7FC1"
+                android:endColor="#1565C0"/>
+        </shape>
+    </item>
+
+    <!-- Ocean tint overlay -->
+    <item android:top="100dp">
+        <shape android:shape="rectangle">
+            <gradient
+                android:type="linear"
+                android:angle="270"
+                android:startColor="#402196F3"
+                android:endColor="#801565C0"/>
+        </shape>
+    </item>
+
+    <!-- Dark bottom fade to match card section -->
+    <item android:top="130dp">
+        <shape android:shape="rectangle">
+            <gradient
+                android:type="linear"
+                android:angle="270"
+                android:startColor="#000D1B2E"
+                android:endColor="#CC0D1B2E"/>
+        </shape>
+    </item>
+
+</layer-list>

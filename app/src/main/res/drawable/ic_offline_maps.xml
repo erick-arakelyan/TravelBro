@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Offline Maps — folded map with compass -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="36dp"
+    android:height="36dp"
+    android:viewportWidth="36"
+    android:viewportHeight="36">
+
+    <!-- Map left panel -->
+    <path
+        android:fillColor="#1565C0"
+        android:fillAlpha="0.8"
+        android:pathData="M4,8 L14,4 L14,32 L4,28 Z"/>
+
+    <!-- Map center panel -->
+    <path
+        android:fillColor="#1976D2"
+        android:pathData="M14,4 L22,8 L22,32 L14,32 Z"/>
+
+    <!-- Map right panel -->
+    <path
+        android:fillColor="#1565C0"
+        android:fillAlpha="0.8"
+        android:pathData="M22,8 L32,4 L32,28 L22,32 Z"/>
+
+    <!-- Map lines (roads) -->
+    <path
+        android:strokeColor="#42A5F5"
+        android:strokeWidth="1"
+        android:strokeAlpha="0.6"
+        android:pathData="M5,14 L13,14 M5,20 L13,20"/>
+    <path
+        android:strokeColor="#42A5F5"
+        android:strokeWidth="1"
+        android:strokeAlpha="0.6"
+        android:pathData="M15,12 L21,14 M15,20 L21,22"/>
+
+    <!-- Location pin on map -->
+    <path
+        android:fillColor="#EF5350"
+        android:pathData="M17,10 A3,3 0 0,0 14,13 Q14,17 17,20 Q20,17 20,13 A3,3 0 0,0 17,10 Z"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M15.5,13 A1.5,1.5 0 1,0 18.5,13 A1.5,1.5 0 1,0 15.5,13 Z"/>
+
+    <!-- Compass rose (bottom right) -->
+    <path
+        android:fillColor="#29B6F6"
+        android:pathData="M29,25 A4,4 0 1,0 37,25 A4,4 0 1,0 29,25 Z"/>
+
+    <!-- Compass N arrow -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M33,25 L31,21 L33,23 Z"/>
+
+    <!-- Compass S arrow -->
+    <path
+        android:fillColor="#EF5350"
+        android:pathData="M33,25 L35,29 L33,27 Z"/>
+
+    <!-- Compass center dot -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M32,24.5 A0.8,0.8 0 1,0 33.6,24.5 A0.8,0.8 0 1,0 32,24.5 Z"/>
+
+</vector>

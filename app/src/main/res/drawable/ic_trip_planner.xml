@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Trip Planner — map with route icon -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="36dp"
+    android:height="36dp"
+    android:viewportWidth="36"
+    android:viewportHeight="36">
+
+    <!-- Map background -->
+    <path
+        android:fillColor="#1565C0"
+        android:fillAlpha="0.3"
+        android:pathData="M4,6 Q4,4 6,4 L30,4 Q32,4 32,6 L32,30 Q32,32 30,32 L6,32 Q4,32 4,30 Z"/>
+
+    <!-- Map outline -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#42A5F5"
+        android:strokeWidth="1.5"
+        android:pathData="M4,6 Q4,4 6,4 L30,4 Q32,4 32,6 L32,30 Q32,32 30,32 L6,32 Q4,32 4,30 Z"/>
+
+    <!-- Map fold lines -->
+    <path
+        android:strokeColor="#42A5F5"
+        android:strokeWidth="1"
+        android:strokeAlpha="0.4"
+        android:pathData="M14,4 L14,32 M4,16 L32,16"/>
+
+    <!-- Winding route path -->
+    <path
+        android:strokeColor="#FFA726"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000"
+        android:pathData="M9,26 Q9,20 14,20 Q20,20 20,14 Q20,8 26,8"/>
+
+    <!-- Start pin (red) -->
+    <path
+        android:fillColor="#EF5350"
+        android:pathData="M7,24 A2.5,2.5 0 0,0 4.5,26.5 Q4.5,30 7,32 Q9.5,30 9.5,26.5 A2.5,2.5 0 0,0 7,24 Z"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M6,26.5 A1,1 0 1,0 8,26.5 A1,1 0 1,0 6,26.5 Z"/>
+
+    <!-- End pin (green) -->
+    <path
+        android:fillColor="#66BB6A"
+        android:pathData="M26,6 A2.5,2.5 0 0,0 23.5,8.5 Q23.5,12 26,14 Q28.5,12 28.5,8.5 A2.5,2.5 0 0,0 26,6 Z"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M25,8.5 A1,1 0 1,0 27,8.5 A1,1 0 1,0 25,8.5 Z"/>
+
+    <!-- Checkmark (mid point) -->
+    <path
+        android:strokeColor="#66BB6A"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M20,16 L22,18 L26,14"/>
+
+</vector>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Tour Packages — mountain/camping icon -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="36dp"
+    android:height="36dp"
+    android:viewportWidth="36"
+    android:viewportHeight="36">
+
+    <!-- Mountain left -->
+    <path
+        android:fillColor="#FF8A65"
+        android:fillAlpha="0.8"
+        android:pathData="M4,30 L14,10 L24,30 Z"/>
+
+    <!-- Mountain right (darker) -->
+    <path
+        android:fillColor="#FF7043"
+        android:pathData="M16,30 L26,12 L36,30 Z"/>
+
+    <!-- Snow cap left -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.9"
+        android:pathData="M14,10 L11,17 L17,17 Z"/>
+
+    <!-- Snow cap right -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.9"
+        android:pathData="M26,12 L23,19 L29,19 Z"/>
+
+    <!-- Tent -->
+    <path
+        android:fillColor="#FFA726"
+        android:pathData="M8,30 L13,22 L18,30 Z"/>
+    <path
+        android:fillColor="#E65100"
+        android:pathData="M12,30 L13,22 L14,30 Z"/>
+
+    <!-- Ground line -->
+    <path
+        android:strokeColor="#FF8A65"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M2,30 L34,30"/>
+
+    <!-- Sun -->
+    <path
+        android:fillColor="#FFCC02"
+        android:pathData="M29,9 A3,3 0 1,0 35,9 A3,3 0 1,0 29,9 Z"/>
+
+</vector>

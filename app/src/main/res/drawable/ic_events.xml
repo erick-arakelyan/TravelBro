@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Events & Festivals — stage lights icon -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="36dp"
+    android:height="36dp"
+    android:viewportWidth="36"
+    android:viewportHeight="36">
+
+    <!-- Stage platform -->
+    <path
+        android:fillColor="#7B1FA2"
+        android:pathData="M4,24 L32,24 L32,30 Q32,32 30,32 L6,32 Q4,32 4,30 Z"/>
+
+    <!-- Stage front edge -->
+    <path
+        android:fillColor="#4A148C"
+        android:pathData="M4,28 L32,28 L32,30 L4,30 Z"/>
+
+    <!-- Light beam left (pink) -->
+    <path
+        android:fillColor="#F48FB1"
+        android:fillAlpha="0.5"
+        android:pathData="M8,4 L2,24 L10,24 L12,4 Z"/>
+
+    <!-- Light beam center (yellow) -->
+    <path
+        android:fillColor="#FFF59D"
+        android:fillAlpha="0.5"
+        android:pathData="M16,4 L13,24 L19,24 L20,4 Z"/>
+
+    <!-- Light beam right (blue) -->
+    <path
+        android:fillColor="#B3E5FC"
+        android:fillAlpha="0.5"
+        android:pathData="M24,4 L22,24 L30,24 L28,4 Z"/>
+
+    <!-- Stage bar top -->
+    <path
+        android:fillColor="#9C27B0"
+        android:pathData="M4,4 L32,4 L32,6 L4,6 Z"/>
+
+    <!-- Light fixture left -->
+    <path
+        android:fillColor="#F48FB1"
+        android:pathData="M8,2 A2.5,2.5 0 1,0 13,2 A2.5,2.5 0 1,0 8,2 Z"/>
+
+    <!-- Light fixture center -->
+    <path
+        android:fillColor="#FFF59D"
+        android:pathData="M15.5,1.5 A2.5,2.5 0 1,0 20.5,1.5 A2.5,2.5 0 1,0 15.5,1.5 Z"/>
+
+    <!-- Light fixture right -->
+    <path
+        android:fillColor="#B3E5FC"
+        android:pathData="M23,2 A2.5,2.5 0 1,0 28,2 A2.5,2.5 0 1,0 23,2 Z"/>
+
+    <!-- Crowd silhouette -->
+    <path
+        android:fillColor="#1A0030"
+        android:fillAlpha="0.6"
+        android:pathData="M6,24 Q7,20 9,24 Q11,20 13,24 Q15,19 17,24 Q19,20 21,24 Q23,20 25,24 Q27,20 29,24 L30,24 L4,24 Z"/>
+
+</vector>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Bonus Rewards — gift box with gold coins -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="36dp"
+    android:height="36dp"
+    android:viewportWidth="36"
+    android:viewportHeight="36">
+
+    <!-- Gift box body -->
+    <path
+        android:fillColor="#E53935"
+        android:pathData="M4,18 L32,18 L32,32 Q32,34 30,34 L6,34 Q4,34 4,32 Z"/>
+
+    <!-- Gift box lid -->
+    <path
+        android:fillColor="#C62828"
+        android:pathData="M2,14 Q2,12 4,12 L32,12 Q34,12 34,14 L34,18 L2,18 Z"/>
+
+    <!-- Ribbon vertical -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M16,12 L20,12 L20,34 L16,34 Z"/>
+
+    <!-- Ribbon horizontal -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M2,16 L34,16 L34,20 L2,20 Z"/>
+
+    <!-- Ribbon bow left -->
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M18,12 Q10,8 8,10 Q6,12 10,14 Q14,14 18,12 Z"/>
+
+    <!-- Ribbon bow right -->
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M18,12 Q26,8 28,10 Q30,12 26,14 Q22,14 18,12 Z"/>
+
+    <!-- Gold coins -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M22,22 A5,5 0 1,0 32,22 A5,5 0 1,0 22,22 Z"/>
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M24,20 A5,5 0 1,0 34,20 A5,5 0 1,0 24,20 Z"/>
+    <path
+        android:fillColor="#FFE082"
+        android:pathData="M26,18 A5,5 0 1,0 36,18 A5,5 0 1,0 26,18 Z"/>
+
+    <!-- Coin shimmer -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1"
+        android:strokeAlpha="0.4"
+        android:pathData="M28,16 L29,19"/>
+
+</vector>

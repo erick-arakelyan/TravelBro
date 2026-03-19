@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Active Traveler Status — star badge icon -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="36dp"
+    android:height="36dp"
+    android:viewportWidth="36"
+    android:viewportHeight="36">
+
+    <!-- Badge outer ring -->
+    <path
+        android:fillColor="#FF8F00"
+        android:pathData="M18,2 A16,16 0 1,0 18,34 A16,16 0 1,0 18,2 Z"/>
+
+    <!-- Badge inner ring -->
+    <path
+        android:fillColor="#FFA000"
+        android:pathData="M18,5 A13,13 0 1,0 18,31 A13,13 0 1,0 18,5 Z"/>
+
+    <!-- Badge serrated edge points -->
+    <path
+        android:fillColor="#FF8F00"
+        android:pathData="M18,2 L19.5,5 L22,3 L22.5,6.5 L25.5,5.5 L25,9 L28,9 L27,12 L30,13 L28,15.5 L31,17.5 L28.5,19.5 L30.5,22 L27.5,23 L28.5,26 L25.5,26 L25.5,29 L22.5,28 L21.5,31 L19,29.5 L17,32 L15,29.5 L12.5,31 L11.5,28 L8.5,29 L8.5,26 L5.5,26 L6.5,23 L3.5,22 L5.5,19.5 L3,17.5 L6,15.5 L4,13 L7,12 L6,9 L9,9 L8.5,5.5 L11.5,6.5 L12,3 L14.5,5 L16.5,2 Z"/>
+
+    <!-- Gold star center -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M18,9 L20,15 L26,15 L21,19 L23,25 L18,21 L13,25 L15,19 L10,15 L16,15 Z"/>
+
+    <!-- Star inner highlight -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.3"
+        android:pathData="M18,10 L19.5,15 L18,14 L16.5,15 Z"/>
+
+</vector>

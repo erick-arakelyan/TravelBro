@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Book Tickets — airplane + ticket icon -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="36dp"
+    android:height="36dp"
+    android:viewportWidth="36"
+    android:viewportHeight="36">
+
+    <!-- Ticket base -->
+    <path
+        android:fillColor="#4FC3F7"
+        android:fillAlpha="0.4"
+        android:pathData="M4,10 Q4,8 6,8 L30,8 Q32,8 32,10 L32,26 Q32,28 30,28 L6,28 Q4,28 4,26 Z"/>
+
+    <!-- Ticket divider line -->
+    <path
+        android:strokeColor="#4FC3F7"
+        android:strokeWidth="1.5"
+        android:strokeAlpha="0.7"
+        android:pathData="M14,8 L14,28"/>
+
+    <!-- Ticket dots left edge -->
+    <path
+        android:strokeColor="#0D1B2E"
+        android:strokeWidth="1.5"
+        android:pathData="M4,16 L4,20"/>
+
+    <!-- Airplane body -->
+    <path
+        android:fillColor="#4FC3F7"
+        android:pathData="M20,12 L28,16 L24,18 L24,22 L21,21 L21,18 L16,20 L16,17 Z"/>
+
+    <!-- Airplane tail -->
+    <path
+        android:fillColor="#81D4FA"
+        android:pathData="M20,12 L18,15 L21,16 Z"/>
+
+    <!-- Train icon bottom-left section -->
+    <path
+        android:fillColor="#29B6F6"
+        android:pathData="M6,20 Q6,19 7,19 L12,19 Q13,19 13,20 L13,25 Q13,26 12,26 L7,26 Q6,26 6,25 Z"/>
+
+    <!-- Train windows -->
+    <path
+        android:fillColor="#0D1B2E"
+        android:fillAlpha="0.5"
+        android:pathData="M7.5,20.5 L9,20.5 L9,22 L7.5,22 Z M10.5,20.5 L12,20.5 L12,22 L10.5,22 Z"/>
+
+    <!-- Train wheels -->
+    <path
+        android:fillColor="#1565C0"
+        android:pathData="M7.5,26.5 A1,1 0 1,0 9.5,26.5 A1,1 0 1,0 7.5,26.5 Z"/>
+    <path
+        android:fillColor="#1565C0"
+        android:pathData="M10.5,26.5 A1,1 0 1,0 12.5,26.5 A1,1 0 1,0 10.5,26.5 Z"/>
+
+</vector>

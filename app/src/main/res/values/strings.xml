@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TravelBro</string>
+
+    <!-- Home Screen -->
+    <string name="welcome_text">Welcome, Traveler!</string>
+    <string name="search_hint">Search destinations, flights, and more...</string>
+    <string name="current_location_label">Current Location:</string>
+    <string name="default_location">Rome, Italy</string>
+
+    <!-- Service Cards -->
+    <string name="card_book_tickets">Book Tickets</string>
+    <string name="card_book_tickets_sub">Flights &amp; Transport</string>
+    <string name="card_tour_packages">Tour Packages</string>
+    <string name="card_tour_packages_sub">Vacation Deals</string>
+    <string name="card_events">Events &amp; Festivals</string>
+    <string name="card_events_sub">What\'s On Worldwide</string>
+    <string name="card_destination">Destination Finder</string>
+    <string name="card_destination_sub">Personalized Suggestions</string>
+    <string name="card_journal">Travel Journal</string>
+    <string name="card_journal_sub">My Trip Diary</string>
+    <string name="card_planner">Trip Planner</string>
+    <string name="card_planner_sub">Plan Your Route</string>
+    <string name="card_ai">AI Guide</string>
+    <string name="card_ai_sub">Smart Travel Info</string>
+    <string name="card_rewards">Bonus Rewards</string>
+    <string name="card_rewards_sub">Earn &amp; Save Points</string>
+    <string name="card_offline_maps">Offline Maps</string>
+    <string name="card_offline_maps_sub">Use Maps Without Internet</string>
+    <string name="card_active_traveler">Active Traveler Status</string>
+    <string name="card_active_traveler_sub">Collect Bonuses &amp; Benefits</string>
+
+    <!-- Bottom Nav -->
+    <string name="nav_home">Home</string>
+    <string name="nav_explore">Explore</string>
+    <string name="nav_rewards">Rewards</string>
+    <string name="nav_profile">Profile</string>
+</resources>
