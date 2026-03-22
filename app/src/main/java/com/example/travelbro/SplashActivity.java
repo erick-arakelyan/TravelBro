@@ -1,4 +1,4 @@
-package com.erikarakelyan.travelbro;
+package com.example.travelbro;
 
 import android.animation.ObjectAnimator;
 import android.animation.PropertyValuesHolder;

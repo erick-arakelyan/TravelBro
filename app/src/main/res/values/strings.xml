@@ -1,38 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">TravelBro</string>
-
-    <!-- Home Screen -->
-    <string name="welcome_text">Welcome, Traveler!</string>
-    <string name="search_hint">Search destinations, flights, and more...</string>
-    <string name="current_location_label">Current Location:</string>
-    <string name="default_location">Rome, Italy</string>
-
-    <!-- Service Cards -->
-    <string name="card_book_tickets">Book Tickets</string>
-    <string name="card_book_tickets_sub">Flights &amp; Transport</string>
-    <string name="card_tour_packages">Tour Packages</string>
-    <string name="card_tour_packages_sub">Vacation Deals</string>
-    <string name="card_events">Events &amp; Festivals</string>
-    <string name="card_events_sub">What\'s On Worldwide</string>
-    <string name="card_destination">Destination Finder</string>
-    <string name="card_destination_sub">Personalized Suggestions</string>
-    <string name="card_journal">Travel Journal</string>
-    <string name="card_journal_sub">My Trip Diary</string>
-    <string name="card_planner">Trip Planner</string>
-    <string name="card_planner_sub">Plan Your Route</string>
-    <string name="card_ai">AI Guide</string>
-    <string name="card_ai_sub">Smart Travel Info</string>
-    <string name="card_rewards">Bonus Rewards</string>
-    <string name="card_rewards_sub">Earn &amp; Save Points</string>
-    <string name="card_offline_maps">Offline Maps</string>
-    <string name="card_offline_maps_sub">Use Maps Without Internet</string>
-    <string name="card_active_traveler">Active Traveler Status</string>
-    <string name="card_active_traveler_sub">Collect Bonuses &amp; Benefits</string>
-
-    <!-- Bottom Nav -->
+    <string name="tagline">Explore the World</string>
+    <string name="login_title">Welcome Back</string>
+    <string name="login_subtitle">Sign in to continue your journey</string>
+    <string name="hint_email">Email address</string>
+    <string name="hint_password">Password</string>
+    <string name="btn_login">Sign In</string>
+    <string name="tv_skip">Skip for now</string>
+    <string name="home_greeting">Hello, Traveler! 👋</string>
+    <string name="home_subtitle">Where do you want to go today?</string>
+    <string name="card_tickets_title">Book Tickets</string>
+    <string name="card_tickets_desc">Flights, trains &amp; buses</string>
+    <string name="card_tours_title">Tours</string>
+    <string name="card_tours_desc">Ready-made packages</string>
+    <string name="card_events_title">Events</string>
+    <string name="card_events_desc">Global experiences</string>
     <string name="nav_home">Home</string>
+    <string name="nav_tickets">Tickets</string>
     <string name="nav_explore">Explore</string>
     <string name="nav_rewards">Rewards</string>
     <string name="nav_profile">Profile</string>
+    <string name="nav_tours">Tours</string>
+    <string name="nav_events">Events</string>
+    <string name="nav_countries">Countries</string>
+    <string name="nav_diary">Diary</string>
+    <string name="nav_plan">Plan</string>
+    <string name="nav_info">Info</string>
+    <string name="nav_map">Map</string>
+    <string name="tickets_title">Book Tickets</string>
+    <string name="tours_title">Travel Tours</string>
+    <string name="events_title">World Events</string>
+    <string name="countries_title">Countries</string>
+    <string name="diary_title">My Diary</string>
+    <string name="plan_title">My Plan</string>
+    <string name="info_title">Information</string>
+    <string name="map_title">Offline Map</string>
+    <string name="coming_soon">Feature coming soon!</string>
+    <string name="popular_destinations">Popular Destinations</string>
+    <string name="featured_tours">Featured Tours</string>
+    <string name="upcoming_events">Upcoming Events</string>
+    <string name="search_hint">Search destinations...</string>
+    <string name="from_label">From</string>
+    <string name="to_label">To</string>
+    <string name="date_label">Date</string>
+    <string name="passengers_label">Passengers</string>
+    <string name="search_flights">Search Flights</string>
 </resources>
