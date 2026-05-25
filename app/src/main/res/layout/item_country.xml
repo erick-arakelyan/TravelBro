@@ -3,44 +3,45 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="140dp"
-    android:layout_margin="8dp"
-    app:cardCornerRadius="20dp"
-    app:cardBackgroundColor="@color/card_bg"
-    app:cardElevation="0dp">
-
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="3dp"
+    app:cardBackgroundColor="@color/surface">
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:gravity="center"
-        android:padding="16dp">
-
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:gravity="center_vertical">
         <TextView
-            android:id="@+id/country_flag"
+            android:id="@+id/tv_country_flag"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="44sp"
-            android:gravity="center"/>
-
-        <TextView
-            android:id="@+id/country_name"
-            android:layout_width="wrap_content"
+            android:textSize="32sp"
+            android:layout_marginEnd="16dp"
+            android:text="🌍"/>
+        <LinearLayout
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:textColor="@color/text_primary"
-            android:textSize="15sp"
-            android:fontFamily="sans-serif-bold"
-            android:gravity="center"
-            android:layout_marginTop="8dp"/>
-
-        <TextView
-            android:id="@+id/country_region"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@color/text_secondary"
-            android:textSize="12sp"
-            android:gravity="center"
-            android:layout_marginTop="2dp"/>
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tv_country_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_primary"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:text="Country"/>
+            <TextView
+                android:id="@+id/tv_country_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_secondary"
+                android:textSize="12sp"
+                android:layout_marginTop="4dp"
+                android:text="Region"/>
+        </LinearLayout>
     </LinearLayout>
-
 </androidx.cardview.widget.CardView>

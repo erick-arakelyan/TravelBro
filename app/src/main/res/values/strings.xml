@@ -1,49 +1,104 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">TravelBro</string>
-    <string name="tagline">Explore the World</string>
-    <string name="login_title">Welcome Back</string>
-    <string name="login_subtitle">Sign in to continue your journey</string>
-    <string name="hint_email">Email address</string>
-    <string name="hint_password">Password</string>
-    <string name="btn_login">Sign In</string>
-    <string name="tv_skip">Skip for now</string>
-    <string name="home_greeting">Hello, Traveler! 👋</string>
-    <string name="home_subtitle">Where do you want to go today?</string>
-    <string name="card_tickets_title">Book Tickets</string>
-    <string name="card_tickets_desc">Flights, trains &amp; buses</string>
-    <string name="card_tours_title">Tours</string>
-    <string name="card_tours_desc">Ready-made packages</string>
-    <string name="card_events_title">Events</string>
-    <string name="card_events_desc">Global experiences</string>
-    <string name="nav_home">Home</string>
-    <string name="nav_tickets">Tickets</string>
-    <string name="nav_explore">Explore</string>
-    <string name="nav_rewards">Rewards</string>
-    <string name="nav_profile">Profile</string>
-    <string name="nav_tours">Tours</string>
-    <string name="nav_events">Events</string>
-    <string name="nav_countries">Countries</string>
-    <string name="nav_diary">Diary</string>
-    <string name="nav_plan">Plan</string>
-    <string name="nav_info">Info</string>
-    <string name="nav_map">Map</string>
-    <string name="tickets_title">Book Tickets</string>
-    <string name="tours_title">Travel Tours</string>
-    <string name="events_title">World Events</string>
-    <string name="countries_title">Countries</string>
-    <string name="diary_title">My Diary</string>
-    <string name="plan_title">My Plan</string>
-    <string name="info_title">Information</string>
-    <string name="map_title">Offline Map</string>
-    <string name="coming_soon">Feature coming soon!</string>
-    <string name="popular_destinations">Popular Destinations</string>
-    <string name="featured_tours">Featured Tours</string>
-    <string name="upcoming_events">Upcoming Events</string>
-    <string name="search_hint">Search destinations...</string>
-    <string name="from_label">From</string>
-    <string name="to_label">To</string>
-    <string name="date_label">Date</string>
-    <string name="passengers_label">Passengers</string>
-    <string name="search_flights">Search Flights</string>
+    <string name="choose_language">Выберите язык</string>
+    <string name="lang_switch">🇷🇺 RU</string>
+    <!-- LOGIN -->
+    <string name="login_title">Добро пожаловать</string>
+    <string name="login_subtitle">Войдите чтобы продолжить путешествие</string>
+    <string name="hint_email">Email адрес</string>
+    <string name="hint_password">Пароль</string>
+    <string name="btn_login">Войти</string>
+    <string name="tv_skip">Пропустить</string>
+
+    <!-- HOME -->
+    <string name="home_greeting">Привет, Путешественник! 👋</string>
+    <string name="home_subtitle">Куда хотите поехать сегодня?</string>
+    <string name="quick_access">Быстрый доступ</string>
+    <string name="popular_destinations">Популярные направления</string>
+    <string name="all_features">Все функции</string>
+    <string name="search_hint">Поиск направлений...</string>
+
+    <!-- CARDS -->
+    <string name="card_tickets_title">Билеты</string>
+    <string name="card_tickets_desc">Авиа, ж/д, автобус</string>
+    <string name="card_tours_title">Погода/Валюта</string>
+    <string name="card_tours_desc">Погода,валюта</string>
+    <string name="card_events_title">События</string>
+    <string name="card_events_desc">Мировые мероприятия</string>
+    <string name="card_ai_guide">AI Гид</string>
+    <string name="card_ai_guide_desc">Виртуальный гид</string>
+    <string name="card_diary">Дневник</string>
+    <string name="card_diary_desc">Мои путешествия</string>
+    <string name="card_plan">Маршрут</string>
+    <string name="card_plan_desc">Планирование поездки</string>
+
+    <!-- NAV -->
+    <string name="nav_home">Главная</string>
+    <string name="nav_tickets">Билеты</string>
+    <string name="nav_tours">Погода/Валюта</string>
+    <string name="nav_events">События</string>
+    <string name="nav_countries">Страны</string>
+    <string name="nav_diary">Дневник</string>
+    <string name="nav_plan">Маршрут</string>
+    <string name="nav_info">Инфо</string>
+    <string name="nav_map">Карта</string>
+    <string name="nav_explore">Обзор</string>
+    <string name="nav_rewards">Бонусы</string>
+    <string name="nav_profile">Профиль</string>
+
+    <!-- TICKETS -->
+    <string name="tickets_title">Поиск билетов</string>
+    <string name="from_label">ОТКУДА</string>
+    <string name="to_label">КУДА</string>
+    <string name="date_label">МЕСЯЦ</string>
+    <string name="search_flights">🔍  Найти рейсы</string>
+    <string name="book_on_aviasales">Купить на Aviasales</string>
+    <string name="no_flights">Рейсов не найдено. Попробуйте другие даты.</string>
+    <string name="fill_all_fields">Заполните все поля</string>
+    <string name="connection_error">Ошибка соединения</string>
+    <string name="flights_found">Найдено рейсов: </string>
+    <string name="departure">Вылет: </string>
+
+    <!-- TOURS -->
+    <string name="tours_title">Туры</string>
+    <string name="coming_soon_title">Скоро!</string>
+    <string name="coming_soon_desc">Мы работаем над этой функцией. Совсем скоро вы сможете покупать готовые туры прямо в приложении.</string>
+    <string name="notify_me">Уведомить меня</string>
+
+    <!-- EVENTS -->
+    <string name="events_title">Мировые события</string>
+
+    <!-- COUNTRIES -->
+    <string name="countries_title">Страны</string>
+
+    <!-- AI GUIDE -->
+    <string name="ai_guide_title">AI Путеводитель</string>
+    <string name="ai_guide_hint">Спросите о любом месте... (или опишите фото)</string>
+    <string name="ai_guide_send">Отправить</string>
+    <string name="ai_guide_welcome">Привет! Я ваш AI путеводитель 🌍\n\nСпросите меня о любом месте, достопримечательности или стране — я расскажу всё, что знаю!\n\nНапример:\n• Расскажи об Эйфелевой башне\n• Что посмотреть в Токио?\n• История Колизея</string>
+
+    <!-- DIARY -->
+    <string name="diary_title">Мой дневник</string>
+    <string name="diary_add">Новая запись</string>
+    <string name="diary_empty">Ваш дневник пуст.\nНачните добавлять воспоминания!</string>
+    <string name="diary_hint_title">Название поездки</string>
+    <string name="diary_hint_text">Опишите ваше путешествие...</string>
+    <string name="diary_save">Сохранить</string>
+
+    <!-- PLAN -->
+    <string name="plan_title">Мой маршрут</string>
+    <string name="plan_add_step">Добавить шаг</string>
+    <string name="plan_hint">Введите место или действие...</string>
+    <string name="plan_empty">Маршрут пуст.\nДобавьте шаги вашей поездки!</string>
+
+    <!-- OTHER -->
+    <string name="info_title">Информация</string>
+    <string name="map_title">Офлайн карта</string>
+    <string name="tagline">Исследуй мир</string>
+    <string name="featured_tours">Популярные туры</string>
+    <string name="upcoming_events">Предстоящие события</string>
+    <string name="from_price">от $</string>
+    <string name="passengers_label">Пассажиры</string>
+
 </resources>
