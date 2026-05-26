@@ -25,19 +25,6 @@
             android:gravity="end"
             android:layout_marginBottom="8dp">
 
-            <TextView
-                android:id="@+id/tv_lang_switch"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/lang_switch"
-                android:textColor="#FFFFFF"
-                android:textSize="14sp"
-                android:textStyle="bold"
-                android:background="#33FFFFFF"
-                android:paddingStart="12dp"
-                android:paddingEnd="12dp"
-                android:paddingTop="4dp"
-                android:paddingBottom="4dp"/>
 
             <!-- Profile button -->
             <LinearLayout

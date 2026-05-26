@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.travelbro"
+    namespace = "com.erikarakelyan.travelbro"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.travelbro"
+        applicationId = "com.erikarakelyan.travelbro"
         minSdk = 24
         targetSdk = 35
         versionCode = 1

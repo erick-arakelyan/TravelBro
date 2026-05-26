@@ -7,6 +7,25 @@
   "client": [
     {
       "client_info": {
+        "mobilesdk_app_id": "1:1086594306838:android:e8d72ced169c3b60927637",
+        "android_client_info": {
+          "package_name": "com.erikarakelyan.travelbro"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCssrTSDDUo2lkQjk5-2gLff-t1qGCfbu0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:1086594306838:android:d11bd715514df8dd927637",
         "android_client_info": {
           "package_name": "com.example.travelbro"
