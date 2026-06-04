@@ -35,7 +35,6 @@ public class BookingFormActivity extends AppCompatActivity {
         rgTitle     = findViewById(R.id.rg_title);
         btnNext     = findViewById(R.id.btn_next);
 
-        // Показать инфо о рейсе
         DuffelOffer offer = FlightSearchHolder.offers.get(FlightSearchHolder.selectedOfferIndex);
         if (offer.slices != null && !offer.slices.isEmpty()) {
             DuffelOffer.Slice slice = offer.slices.get(0);
