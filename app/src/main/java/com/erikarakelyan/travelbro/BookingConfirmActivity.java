@@ -98,11 +98,8 @@ public class BookingConfirmActivity extends AppCompatActivity {
         tvStatus.setVisibility(View.GONE);
         llSummary.setVisibility(View.GONE);
         btnBook.setVisibility(View.GONE);
-
-        // Показываем блок с "документом"
         llSuccess.setVisibility(View.VISIBLE);
 
-        // Заполняем данные в финальном билете
         TextView tvRef = findViewById(R.id.tv_booking_ref);
         TextView tvSucPass = findViewById(R.id.tv_success_passenger);
         TextView tvSucFlight = findViewById(R.id.tv_success_flight);
@@ -110,7 +107,6 @@ public class BookingConfirmActivity extends AppCompatActivity {
         tvRef.setText(bookingRef);
         tvSucPass.setText(FlightSearchHolder.passengerFirstName + " " + FlightSearchHolder.passengerLastName);
 
-        // Копируем данные рейса из верхнего TextView
         TextView tvFlightSource = findViewById(R.id.tv_flight);
         tvSucFlight.setText(tvFlightSource.getText());
     }
