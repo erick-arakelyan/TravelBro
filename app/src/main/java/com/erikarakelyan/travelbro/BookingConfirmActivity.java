@@ -20,7 +20,6 @@ public class BookingConfirmActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_booking_confirm);
 
-        // Инициализация UI
         ImageButton btnBack = findViewById(R.id.btn_back);
         btnBack.setOnClickListener(v -> finish());
 
@@ -30,10 +29,8 @@ public class BookingConfirmActivity extends AppCompatActivity {
         llSuccess   = findViewById(R.id.ll_success);
         tvStatus    = findViewById(R.id.tv_status);
 
-        // Показ данных перед бронированием
         showSummary();
 
-        // Логика кнопки
         btnBook.setOnClickListener(v -> simulateBooking());
     }
 
@@ -73,14 +70,12 @@ public class BookingConfirmActivity extends AppCompatActivity {
     }
 
     private void simulateBooking() {
-        // Визуальный эффект процесса
         btnBook.setEnabled(false);
         progressBar.setVisibility(View.VISIBLE);
         tvStatus.setVisibility(View.VISIBLE);
         tvStatus.setText("Обработка платежа...");
         tvStatus.setTextColor(getColor(android.R.color.darker_gray));
 
-        // Имитация задержки сервера 2.5 секунды
         new Handler().postDelayed(() -> {
             String fakeRef = generateBookingReference();
             FlightSearchHolder.bookingReference = fakeRef;
