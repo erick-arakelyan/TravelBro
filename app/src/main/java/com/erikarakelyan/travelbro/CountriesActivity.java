@@ -18,7 +18,6 @@ public class CountriesActivity extends AppCompatActivity {
     private int currentQuestion = 0;
     private Map<String, String> answers = new HashMap<>();
 
-    // Questions data
     private String[] questionTitles = {
         "Какой климат вам нравится?",
         "Что вас привлекает больше всего?",
@@ -53,7 +52,6 @@ public class CountriesActivity extends AppCompatActivity {
 
     private String[] questionKeys = {"climate", "attraction", "budget", "travel", "priority", "cuisine", "duration"};
 
-    // UI elements
     private TextView tvQuestionNumber;
     private TextView tvQuestionEmoji;
     private TextView tvQuestionTitle;
@@ -109,7 +107,6 @@ public class CountriesActivity extends AppCompatActivity {
         btnNext.setEnabled(false);
         btnNext.setAlpha(0.5f);
 
-        // Update progress
         float progress = (float)(index + 1) / questionTitles.length;
         progressFill.post(() -> {
             android.view.ViewGroup.LayoutParams params = progressFill.getLayoutParams();
@@ -117,15 +114,12 @@ public class CountriesActivity extends AppCompatActivity {
             progressFill.setLayoutParams(params);
         });
 
-        // Update question info
         tvQuestionNumber.setText((index + 1) + " / " + questionTitles.length);
         tvQuestionEmoji.setText(questionEmojis[index]);
         tvQuestionTitle.setText(questionTitles[index]);
 
-        // Animate question in
         animateQuestionIn();
 
-        // Build option cards
         llOptions.removeAllViews();
         for (int i = 0; i < optionTexts[index].length; i++) {
             View optionView = getLayoutInflater().inflate(R.layout.item_option_card, llOptions, false);
@@ -136,7 +130,6 @@ public class CountriesActivity extends AppCompatActivity {
             optionView.setOnClickListener(v -> selectOption(optionIndex));
             optionView.setTag(i);
 
-            // Stagger animation
             optionView.setAlpha(0f);
             optionView.setTranslationX(80f);
             optionView.animate()
@@ -153,7 +146,6 @@ public class CountriesActivity extends AppCompatActivity {
     private void selectOption(int index) {
         selectedOptionIndex = index;
 
-        // Update all cards visual state
         for (int i = 0; i < llOptions.getChildCount(); i++) {
             View card = llOptions.getChildAt(i);
             if (i == index) {
@@ -161,7 +153,7 @@ public class CountriesActivity extends AppCompatActivity {
                 card.setBackgroundResource(R.drawable.bg_option_selected);
                 TextView tv = card.findViewById(R.id.tv_option_text);
                 tv.setTextColor(getColor(R.color.white));
-                // Scale animation
+          
                 card.animate().scaleX(1.03f).scaleY(1.03f).setDuration(150).start();
             } else {
                 card.setSelected(false);
@@ -179,7 +171,7 @@ public class CountriesActivity extends AppCompatActivity {
     private void onNextClicked() {
         if (selectedOptionIndex < 0) return;
 
-        // Save answer
+   
         answers.put(questionKeys[currentQuestion], optionValues[currentQuestion][selectedOptionIndex]);
 
         if (currentQuestion < questionTitles.length - 1) {
